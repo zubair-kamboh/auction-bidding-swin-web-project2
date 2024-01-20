@@ -1,0 +1,86 @@
+/* Student Name: Zubair Ali 
+ Student ID: 104823405 */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f5f5f5;
+  padding: 0px 20px;
+  font-family: sans-serif;
+  color: #333;
+}
+.logo {
+  color: #4682b4;
+  text-align: center;
+  margin: 20px 0px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+  height: 50px;
+  margin-bottom: 20px;
+}
+.navbar a {
+  padding: 10px 25px;
+  background-color: #333;
+  color: white;
+  border-radius: 15px;
+  text-decoration: none;
+}
+.loginRegText {
+  margin: 20px 0px;
+  text-align: center;
+}
+.loginRegText span {
+  color: red;
+  text-decoration: underline;
+}
+.loginbox {
+  background-color: #e0ecf8;
+  width: 45%;
+  margin: auto;
+  border: 1px solid black;
+  padding: 5px;
+}
+.logindetails {
+  font-family: sans-serif;
+}
+.requiredFieldText {
+  color: red;
+  padding: 5px 0px;
+  font-size: small;
+}
+form {
+  width: 100%;
+}
+form div {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+form input {
+  padding: 7px;
+  border: none;
+  background-color: #fff;
+  color: #333;
+  border-radius: 8px;
+  width: 100%;
+  margin: 10px 0px;
+}
+form div label {
+  width: 120px;
+}
+.loginBtn,
+.resetBtn {
+  background-color: #333;
+  color: white;
+  padding: 6px 15px;
+  border-radius: 10px;
+  margin: 0px 8px;
+}
